@@ -1,11 +1,11 @@
-  # ### ### # # ### ### ### ### ### ### 
-  #   #   # # # #   #     # # # # # # # 
-  # ### ### ### ### ###   # ### ### # # 
-  # #     #   #   # # #   # # #   # # # 
-  # ### ###   # ### ###   # ### ### ###
+# ### ### # # ### ### ### ### ### ###
+#   #   # # # #   #     # # # # # # #
+# ### ### ### ### ###   # ### ### # #
+# #     #   #   # # #   # # #   # # #
+# ### ###   # ### ###   # ### ### ###
 
 
-def f_display_part(num:int, row:int):
+def f_display_part(num: int, row: int):
     if num == 0:
         match row:
             case 0:
@@ -18,6 +18,8 @@ def f_display_part(num:int, row:int):
                 return '# #'
             case 4:
                 return '###'
+            case _:  # ➜ captura cualquier otro int
+                raise ValueError(f"Row inválida: {row}")
     if num == 1:
         return '  #'
     if num == 2:
@@ -32,6 +34,8 @@ def f_display_part(num:int, row:int):
                 return '#  '
             case 4:
                 return '###'
+            case _:  # ➜ captura cualquier otro int
+                raise ValueError(f"Row inválida: {row}")
     if num == 3:
         match row:
             case 0:
@@ -44,6 +48,8 @@ def f_display_part(num:int, row:int):
                 return '  #'
             case 4:
                 return '###'
+            case _:  # ➜ captura cualquier otro int
+                raise ValueError(f"Row inválida: {row}")
     if num == 4:
         match row:
             case 0:
@@ -56,6 +62,8 @@ def f_display_part(num:int, row:int):
                 return '  #'
             case 4:
                 return '  #'
+            case _:  # ➜ captura cualquier otro int
+                raise ValueError(f"Row inválida: {row}")
     if num == 5:
         match row:
             case 0:
@@ -68,6 +76,8 @@ def f_display_part(num:int, row:int):
                 return '  #'
             case 4:
                 return '###'
+            case _:  # ➜ captura cualquier otro int
+                raise ValueError(f"Row inválida: {row}")
     if num == 6:
         match row:
             case 0:
@@ -80,6 +90,8 @@ def f_display_part(num:int, row:int):
                 return '# #'
             case 4:
                 return '###'
+            case _:  # ➜ captura cualquier otro int
+                raise ValueError(f"Row inválida: {row}")
     if num == 7:
         match row:
             case 0:
@@ -92,6 +104,8 @@ def f_display_part(num:int, row:int):
                 return '  #'
             case 4:
                 return '  #'
+            case _:  # ➜ captura cualquier otro int
+                raise ValueError(f"Row inválida: {row}")
     if num == 8:
         match row:
             case 0:
@@ -104,6 +118,8 @@ def f_display_part(num:int, row:int):
                 return '# #'
             case 4:
                 return '###'
+            case _:  # ➜ captura cualquier otro int
+                raise ValueError(f"Row inválida: {row}")
     if num == 9:
         match row:
             case 0:
@@ -116,6 +132,8 @@ def f_display_part(num:int, row:int):
                 return '  #'
             case 4:
                 return '###'
+            case _:  # ➜ captura cualquier otro int
+                raise ValueError(f"Row inválida: {row}")
 
 
 def main():
@@ -127,7 +145,8 @@ def main():
             print('Debe ingresar un número y debe ser igual o mayor a 0.')
             continue
         for row in range(5):
-            full_row = [str(f_display_part(int(num), row)) for num in input_num]
+            full_row = [str(f_display_part(int(num), row))
+                        for num in input_num]
             # print(full_row)
             to_print = ' '.join(full_row)
             print(to_print)
