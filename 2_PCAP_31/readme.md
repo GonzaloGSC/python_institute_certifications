@@ -2,6 +2,28 @@
 
 - [PYTHON INSTITUTE CERTIFICATIONS](#python-institute-certifications)
   - [LABORATORIO 1: Un Display LED](#laboratorio-1-un-display-led)
+    - [Tiempo Estimado (L1)](#tiempo-estimado-l1)
+    - [Nivel de dificultad (L1)](#nivel-de-dificultad-l1)
+    - [Objetivos (L1)](#objetivos-l1)
+    - [Escenario (L1)](#escenario-l1)
+    - [Datos de prueba](#datos-de-prueba)
+  - [LABORATORIO 2: Pila Contadora](#laboratorio-2-pila-contadora)
+    - [Tiempo Estimado (L2)](#tiempo-estimado-l2)
+    - [Nivel de Dificultad (L2)](#nivel-de-dificultad-l2)
+    - [Objetivos (L2)](#objetivos-l2)
+    - [Escenario (L2)](#escenario-l2)
+  - [LABORATORIO 3: Colas alias FIFO](#laboratorio-3-colas-alias-fifo)
+    - [Tiempo Estimado (L3)](#tiempo-estimado-l3)
+    - [Nivel de Dificultad (L3)](#nivel-de-dificultad-l3)
+    - [Objetivos (L3)](#objetivos-l3)
+    - [Escenario (L3)](#escenario-l3)
+    - [Salida Esperada (L3)](#salida-esperada-l3)
+  - [LABORATORIO 4: Colas alias FIFO: parte 2](#laboratorio-4-colas-alias-fifo-parte-2)
+    - [Tiempo Estimado (L4)](#tiempo-estimado-l4)
+    - [Nivel de Dificultad (L4)](#nivel-de-dificultad-l4)
+    - [Objetivos (L4)](#objetivos-l4)
+    - [Escenario (L4)](#escenario-l4)
+    - [Saluda Esperada (L4)](#saluda-esperada-l4)
 
 ## LABORATORIO 1: Un Display LED
 
