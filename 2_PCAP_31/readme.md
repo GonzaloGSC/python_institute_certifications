@@ -114,7 +114,9 @@ Fácil/Medio
 
 Mejorar las habilidades del estudiante para definir clases desde cero.
 Implementar estructuras de datos estándar como clases.
-Escenario (L3)
+
+### Escenario (L3)
+
 Como ya sabes, una pila es una estructura de datos que realiza el modelo LIFO (último en entrar, primero en salir). Es fácil y ya te has acostumbrado a ello perfectamente.
 
 Probemos algo nuevo ahora. Una cola (queue) es un modelo de datos caracterizado por el término FIFO: primero en entrar, primero en salir. Nota: una cola (fila) regular que conozcas de las tiendas u oficinas de correos funciona exactamente de la misma manera: un cliente que llegó primero también es el primero en ser atendido.
