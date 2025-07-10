@@ -57,7 +57,7 @@ def main():
     que.put(1)
     que.put("perro")
     que.put(False)
-    for i in range(4):
+    for i in range(4): # type: ignore
         if not que.isempty():
             print(que.get())
         else:
