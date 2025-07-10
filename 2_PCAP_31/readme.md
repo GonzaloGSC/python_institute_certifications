@@ -24,6 +24,12 @@
     - [Objetivos (L4)](#objetivos-l4)
     - [Escenario (L4)](#escenario-l4)
     - [Saluda Esperada (L4)](#saluda-esperada-l4)
+  - [LABORATORIO 5: La clase Timer](#laboratorio-5-la-clase-timer)
+    - [Tiempo Estimado (L5)](#tiempo-estimado-l5)
+    - [Nivel de Dificultad (L5)](#nivel-de-dificultad-l5)
+    - [Objetivos (L5)](#objetivos-l5)
+    - [Escenario (L5)](#escenario-l5)
+    - [Salida Esperada (L5)](#salida-esperada-l5)
 
 ## LABORATORIO 1: Un Display LED
 
@@ -193,4 +199,48 @@ A continuación, puedes copiar el código que usamos en el laboratorio anterior:
 perro
 False
 Cola vacía
+```
+
+## LABORATORIO 5: La clase Timer
+
+### Tiempo Estimado (L5)
+
+30-60 minutos
+
+### Nivel de Dificultad (L5)
+
+Fácil/Medio
+
+### Objetivos (L5)
+
+Mejorar las habilidades del estudiante para definir clases desde cero.
+Definir y usar variables de instancia.
+Definir y usar métodos.
+
+### Escenario (L5)
+
+Necesitamos una clase capaz de contar segundos. ¿Fácil? No es tan fácil como podrías pensar, ya que tendremos algunos requisitos específicos.
+
+Léelos con atención, ya que la clase sobre la que escribes se utilizará para lanzar cohetes en misiones internacionales a Marte. Es una gran responsabilidad. ¡Contamos contigo!
+
+Tu clase se llamará Timer (temporizador en español). Su constructor acepta tres argumentos que representan horas (un valor del rango [0..23]; usaremos tiempo militar), minutos (del rango [0. .59]) y segundos (del rango [0..59]).
+
+Cero es el valor predeterminado para todos los parámetros anteriores. No es necesario realizar ninguna comprobación de validación.
+
+La clase en sí debería proporcionar las siguientes facilidades:
+
+Los objetos de la clase deben ser "imprimibles", es decir, deben poder convertirse implícitamente en cadenas de la siguiente forma: "hh:mm:ss", con ceros a la izquierda agregados cuando cualquiera de los valores es menor que 10.
+La clase debe estar equipada con métodos sin parámetros llamados next_second() y previous_second (), incrementando el tiempo almacenado dentro de los objetos en +1/-1 segundos respectivamente.
+Emplea las siguientes sugerencias:
+
+Todas las propiedades del objeto deben ser privadas.
+Considera escribir una función separada (¡no un método!) para formatear la cadena con el tiempo.
+Completa la plantilla que te proporcionamos en el editor. Ejecuta tu código y comprueba si el resultado es el mismo que el nuestro.
+
+### Salida Esperada (L5)
+
+```bash
+23:59:59
+00:00:00
+23:59:59
 ```
