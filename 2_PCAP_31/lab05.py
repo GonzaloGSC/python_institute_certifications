@@ -1,5 +1,5 @@
-# from typing import Any
 from datetime import datetime, time as datetime_time, timedelta
+
 
 class Timer:
     def __init__(self, hh: int = 0, mm: int = 0, ss: int = 0):
@@ -9,11 +9,17 @@ class Timer:
         return str(self.__otime.strftime('%H:%M:%S'))
 
     def next_second(self):
-        dt = datetime.combine(datetime.min.replace(year=1900).date(), self.__otime) + timedelta(seconds=1)
+        dt = datetime.combine(
+            datetime.min.replace(year=1900).date(),
+            self.__otime
+        ) + timedelta(seconds=1)
         self.__otime = dt.time()
 
     def prev_second(self):
-        dt = datetime.combine(datetime.min.replace(year=1900).date(), self.__otime) - timedelta(seconds=1)
+        dt = datetime.combine(
+            datetime.min.replace(year=1900).date(),
+            self.__otime
+        ) - timedelta(seconds=1)
         self.__otime = dt.time()
 
 

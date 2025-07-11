@@ -1,5 +1,4 @@
 from typing import Any
-# from datetime import datetime, time as datetime_time, timedelta
 
 
 class WeekDayError(Exception):
@@ -15,7 +14,8 @@ class Weeker:
             raise WeekDayError('La variable "day" debe ser tipo "str".')
         if not day in self.__values:
             raise WeekDayError(
-                f'La variable "day" debe estar dentro de estos valores: {self.__values}.')
+                f'La variable "day" debe estar dentro de estos valores: {self.__values}.'
+            )
         self.__day: str = day
 
     def __str__(self):
