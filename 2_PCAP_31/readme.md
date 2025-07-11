@@ -6,7 +6,7 @@
     - [Nivel de dificultad (L1)](#nivel-de-dificultad-l1)
     - [Objetivos (L1)](#objetivos-l1)
     - [Escenario (L1)](#escenario-l1)
-    - [Datos de prueba](#datos-de-prueba)
+    - [Datos de prueba (L1)](#datos-de-prueba-l1)
   - [LABORATORIO 2: Pila Contadora](#laboratorio-2-pila-contadora)
     - [Tiempo Estimado (L2)](#tiempo-estimado-l2)
     - [Nivel de Dificultad (L2)](#nivel-de-dificultad-l2)
@@ -30,6 +30,12 @@
     - [Objetivos (L5)](#objetivos-l5)
     - [Escenario (L5)](#escenario-l5)
     - [Salida Esperada (L5)](#salida-esperada-l5)
+  - [LABORATORIO 6: Días de la semana](#laboratorio-6-días-de-la-semana)
+    - [Tiempo Estimado (L6)](#tiempo-estimado-l6)
+    - [Nivel de Dificultad (L6)](#nivel-de-dificultad-l6)
+    - [Objetivos (L6)](#objetivos-l6)
+    - [Escenario (L6)](#escenario-l6)
+    - [Salida Esperada (L6)](#salida-esperada-l6)
 
 ## LABORATORIO 1: Un Display LED
 
@@ -70,7 +76,7 @@ Tu código debe mostrar cualquier número entero no negativo ingresado por el us
 
 Consejo: puede ser muy útil usar una lista que contenga patrones de los diez dígitos.
 
-### Datos de prueba
+### Datos de prueba (L1)
 
 Entrada de muestra:
 
@@ -243,4 +249,44 @@ Completa la plantilla que te proporcionamos en el editor. Ejecuta tu código y c
 23:59:59
 00:00:00
 23:59:59
+```
+
+## LABORATORIO 6: Días de la semana
+
+### Tiempo Estimado (L6)
+
+30-60 minutos
+
+### Nivel de Dificultad (L6)
+
+Fácil/Medio
+
+### Objetivos (L6)
+
+Mejorar las habilidades del estudiante para definir clases desde cero.
+Definir y usar variables de instancia.
+Definir y usar métodos.
+
+### Escenario (L6)
+
+Tu tarea es implementar una clase llamada Weeker. Sí, tus ojos no te engañan, este nombre proviene del hecho de que los objetos de esta clase podrán almacenar y manipular los días de la semana.
+
+El constructor de la clase acepta un argumento: una cadena. La cadena representa el nombre del día de la semana y los únicos valores aceptables deben provenir del siguiente conjunto:
+
+Lun Mar Mie Jue Vie Sab Dom
+
+Invocar al constructor con un argumento desde fuera de este conjunto debería generar la excepción WeekDayError (defínela tu mismo; no te preocupes, pronto hablaremos sobre la naturaleza objetiva de las excepciones). La clase debe proporcionar las siguientes facilidades:
+
+Los objetos de la clase deben ser "imprimibles", es decir, deben poder convertirse implícitamente en cadenas de la misma forma que los argumentos del constructor.
+La clase debe estar equipada con métodos de un parámetro llamados add_days(n) y subtract_days(n), siendo n un número entero que actualiza el día de la semana almacenado dentro del objeto mediante el número de días indicado, hacia adelante o hacia atrás.
+Todas las propiedades del objeto deben ser privadas.
+Completa la plantilla que te proporcionamos en el editor, ejecuta su código y verifica si tu salida se ve igual que la nuestra.
+
+### Salida Esperada (L6)
+
+```bash
+Lun
+Mar
+Dom
+Lo siento, no puedo atender tu solicitud.
 ```
