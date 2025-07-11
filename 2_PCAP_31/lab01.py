@@ -147,7 +147,6 @@ def main():
         for row in range(5):
             full_row = [str(f_display_part(int(num), row))
                         for num in input_num]
-            # print(full_row)
             to_print = ' '.join(full_row)
             print(to_print)
 

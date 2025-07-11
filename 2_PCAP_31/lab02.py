@@ -16,22 +16,13 @@ class Stack:
 
 class CountingStack(Stack):
     def __init__(self):
-        #
-        # Llena el constructor con acciones apropiadas.
-        #
         Stack.__init__(self)
         self.__count: int = 0
 
     def get_counter(self):
-        #
-        # Presenta el valor actual del contador al mundo.
-        #
         return self.__count
 
     def pop(self):
-        #
-        # Haz un pop y actualiza el contador.
-        #
         Stack.pop(self)
         self.__count += 1
 
