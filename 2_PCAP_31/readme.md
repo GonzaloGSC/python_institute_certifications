@@ -42,6 +42,12 @@
     - [Objetivos (L7)](#objetivos-l7)
     - [Escenario (L7)](#escenario-l7)
     - [Salida esperada (L7)](#salida-esperada-l7)
+  - [LABORATORIO 8: Triángulo](#laboratorio-8-triángulo)
+    - [Tiempo Estimado (L8)](#tiempo-estimado-l8)
+    - [Nivel de Dificultad (L8)](#nivel-de-dificultad-l8)
+    - [Objetivos (L8)](#objetivos-l8)
+    - [Escenario (L8)](#escenario-l8)
+    - [Salida esperada (L8)](#salida-esperada-l8)
 
 ## LABORATORIO 1: Un Display LED
 
@@ -337,4 +343,36 @@ Completa la plantilla que te proporcionamos en el editor, ejecuta tu código y v
 ```bash
 1.4142135623730951
 1.4142135623730951
+```
+
+## LABORATORIO 8: Triángulo
+
+### Tiempo Estimado (L8)
+
+30-60 minutos
+
+### Nivel de Dificultad (L8)
+
+Fácil/Medio
+
+### Objetivos (L8)
+
+Mejorar las habilidades del estudiante para definir clases desde cero.
+Emplear composición.
+
+### Escenario (L8)
+
+Ahora vamos a colocar la clase Point (ver Lab 3.4.1.14) dentro de otra clase. Además, vamos a poner tres puntos en una clase, lo que nos permitirá definir un triángulo.¿Cómo podemos hacerlo?
+
+La nueva clase se llamará Triangle y esto es lo que queremos:
+
+- El constructor acepta tres argumentos - todos ellos son objetos de la clase Point.
+- Los puntos se almacenan dentro del objeto como una lista privada.
+- La clase proporciona un método sin parámetros llamado perimeter(), que calcula el perímetro del triángulo descrito por los tres puntos; el perímetro es la suma de todas las longitudes de los lados (lo mencionamos para que conste, aunque estamos seguros de que tú mismo lo conoces perfectamente).
+- Completa la plantilla que te proporcionamos en el editor, ejecuta tu código y verifica si tu salida se ve igual que la nuestra.
+
+### Salida esperada (L8)
+
+```bash
+3.414213562373095
 ```
